@@ -24,7 +24,7 @@ const containerStyle = {
 
 const topRowPictureContainer = {
   width: '100%',
-  height: '400px',
+  height: '600px',
   display: 'inline-flex',
   justifyContent: 'space-between'
 

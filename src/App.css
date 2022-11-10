@@ -78,7 +78,8 @@ li a {
 .Title {
   font-family: 'CormorantGaramond-BoldItalic';
   text-align: center;
-  color: rgb(151, 129, 5)
+  color: rgb(151, 129, 5);
+  
   
 }
 .h2 {
@@ -164,6 +165,7 @@ form {
   margin: auto;
   text-align: center;
   width: 300px;
+  display: block;
 }
 
 .bottomRightPicture{
@@ -177,11 +179,13 @@ form {
 }
 
 .hover{
-  margin:auto;
+  margin-top: 0;
   /* transform: scale(1.2); */
   width: 400px;
   height: 400px;
   object-fit: contain;
+  display: flex;
+  flex-direction: column;
 }
 
 .what3Words{
