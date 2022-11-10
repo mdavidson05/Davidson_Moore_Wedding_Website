@@ -1,17 +1,127 @@
 .App {
   text-align: center;
 }
+@font-face {
+  font-family: 'CormorantGaramond-BoldItalic';
+  src: local('CormorantGaramond-BoldItalic'),
+    url('./fonts/CormorantGaramond-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Bold';
+  src: local('CormorantGaramond-Bold'),
+    url('./fonts/CormorantGaramond-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Light';
+  src: local('CormorantGaramond-Light'),
+    url('./fonts/CormorantGaramond-Light.ttf') format('truetype');
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  height: 10px;
+  width: 60px;
+  display: inline-block;
+  
+
+}
+
+li a {
+  display: inline-block;
+  /* font-family: 'CormorantGaramond-BoldItalic'; */
+  /* padding: 0 12px !important;
+  margin: 0 10px !important;
+  font-size: 20px !important; */
+  
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.img {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  
+}
+.homeImage {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  
+}
 
+.parkingimage {
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.Title {
+  font-family: 'CormorantGaramond-BoldItalic';
+  text-align: center;
+  color: rgb(151, 129, 5)
+  
+}
+.h2 {
+  text-align: center;
+  font-family: 'CormorantGaramond-Bold';
+  font-size: large;
+  color: rgb(151, 129, 5)
+  
+}
+
+.weddingInfo {
+  font-family: 'CormorantGaramond-Light';
+  text-align: center;
+  font-size: 20px;
+  color: rgb(151, 129, 5)
+
+}
+
+body {
+  background-image: url('./lilliesBackground1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* .map {
+  display: flex;
+  position: center;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* h2 {
+  font-family: "fantasy", "papyrus";
+  text-align: center;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +145,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topLeftPicture{
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+
+.topRightPicture{
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.bottomLeftPicture{
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.bottomRightPicture{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.topRowPictures{
+  margin: auto,
+}
+
+.hover{
+  margin:auto;
+  /* transform: scale(1.2); */
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.what3Words{
+  text-align: center;
 }
